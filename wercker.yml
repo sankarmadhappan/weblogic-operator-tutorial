@@ -3,7 +3,7 @@ box: combient/java-mvn
 build:
   steps:
     - script:
-        name: Maven build - MBean Sample application
+        name: Maven build - MBean Sample application -1
         code: mvn clean package
 
 build-domain-in-home-image:
